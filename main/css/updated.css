@@ -1,0 +1,44 @@
+    body {
+      animation: colorchange 50s infinite;
+      -webkit-animation: colorchange 50s infinite;
+    }
+
+    @keyframes colorchange
+	{
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+	
+	waves-effect.waves-brown .waves-ripple 
+    {
+      background-color: rgba(230, 230, 230, .3)
+    }
+	
+    @font-face {
+      font-family: Main;
+      src: url("vandervon.oft")
+    }
+	
+	h1#h1-main, h1#h1-menu, h1#h1-staff{
+		font-size: 50px;
+		color: #000000;
+		font-family: Main;
+		font-weight: bold;
+	}
+	
+	p {
+		color: #000000;
+		font-size: 20px;
+	}
